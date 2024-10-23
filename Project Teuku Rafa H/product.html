@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="styleproduct.css">
+</head>
+<body>
+     <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="images product page/image1.png" alt="product 1" id="productImg">
+                <div class="controls">
+                    <span class="btn active."></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Cheap Clothing</h1>
+                <h2>500,000,000$ USD</h2>
+                <h3>50% Discount</h3>
+                <p>This is very cheap, its too cheap, so i added a
+                     50% discount so homefull people can buy it.
+                    too cheap isnt it? well its bc this is our first
+                    product and we want to start off with a tad bit of 
+                    money.
+                    <form>
+                        <div class="size-select">
+                            <p>Size</p>
+                            <label for="Small">
+                                <input type="radio" name="size" id="Small">
+                                <span>S</span>
+                            </label>
+                            <label for="Medium">
+                                <input type="radio" name="size" id="Medium">
+                                <span>M</span>
+                            </label>
+                            <label for="Large">
+                                <input type="radio" name="size" id="Large">
+                                <span>L</span>
+                            </label>
+                            <label for="Extra Large">
+                                <input type="radio" name="size" id="Extra Large">
+                                <span>XL</span>
+                            </label>
+                            <label for="Extra Extra Large">
+                                <input type="radio" name="size" id="Extra Extra Large">
+                                <span>XXL</span>
+                            </label>
+                        </label>
+                        <label for="Big">
+                            <input type="radio" name="size" id="Big">
+                            <span>B</span>
+                        </label>
+                        <label for="Extra Big">
+                            <input type="radio" name="size" id="Extra Big">
+                            <span>XB</span>
+                        </label>
+                        </div>
+
+                        <div class="color">
+                            <p>Color</p>
+                            <label for="Red">
+                                <input type="radio" name="color" id="Red" data-image="red.jpg">
+                                <span class="Color-1"></span>
+                            </label>
+                            <label for="Black">
+                                <input type="radio" name="color" id="Black" data-image="black.jfif">
+                                <span class="Color-2"></span>
+                            </label>
+                            <label for="White">
+                                <input type="radio" name="color" id="White" data-image="white.jfif">
+                                <span class="Color-3"></span>
+                            </label>
+                            <label for="Blue">
+                                <input type="radio" name="color" id="Blue" data-image="blue.jfif">
+                                <span class="Color-4"></span>
+                            </label>
+                            <label for="Green">
+                                <input type="radio" name="color" id="Green" data-image="green.jfif">
+                                <span class="Color-5"></span>
+                            </label>
+                        </div>
+
+                        <div class="quantity">
+                            <p>Quantity</p>
+                            <input type="number" id="quantityinput" value="1" min="1">
+                            <p id="stockinfo"></p>
+                        </div>
+                        <a href="#"><button type="button" id="buybutton">Buy Now!!!</button></a>
+                    </form>
+                </p>
+            </div>
+        </div>
+     </div>
+     <script type="text/javascript" src="scriptproduct.js"></script>
+</body>
+</html>
